@@ -9,3 +9,6 @@
     - script: dotnet build --configuration Release
     - script: dotnet test
     - script: dotnet publish -o publish
+
+steps:
+          - script: echo "Deploying App to DEV"
